@@ -1,4 +1,4 @@
-Product Management System (CRUD)
+#Product Management System (CRUD)
 A simple and interactive Product Management System built using HTML, CSS, and JavaScript. This project demonstrates CRUD operations (Create, Read, Update, Delete) and localStorage usage to manage product data efficiently. It also features a light/dark mode toggle for a better user experience.
 
 Table of Contents
