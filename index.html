@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>CURD</h1>
+            <p>PRODUCT MANAGEMENT SYSTEM</p>
+        </div>
+        <div class="inputs">
+            <input type="text" placeholder="Title" id="title">
+            <div class="thePrice">
+                <input type="number" id="price1" placeholder="Price" onkeyup="calculateTotal()">
+                <input type="number" id="taxes" placeholder="Taxes" onkeyup="calculateTotal()">
+                <input type="number" id="ads" placeholder="Ads" onkeyup="calculateTotal()">
+                <input type="number" id="discount" placeholder="Discount" onkeyup="calculateTotal()">
+                <small id="totalDisplay"></small>
+            </div>
+            <input type="number" placeholder="Count" id="count">
+            <input type="text" placeholder="Category" id="category">
+            <textarea placeholder="Notes" id="notes"></textarea>
+            <input type="button" value="Create" id="btn">
+            <input type="search" placeholder="Search" id="search" onkeyup="searchProduct()">
+            <div class="searchbtn">
+                <button onclick="setSearchMode('title')">Search by Title</button>
+                <button onclick="setSearchMode('category')">Search by Category</button>
+            </div>
+        </div>
+        <button onclick="toggleMode()" id="modeToggle">Toggle Dark/Light Mode</button>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Taxes</th>
+                        <th>Ads</th>
+                        <th>Discount</th>
+                        <th>Total</th>
+                        <th>Count</th>
+                        <th>Category</th>
+                        <th>Notes</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody class="totable"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
