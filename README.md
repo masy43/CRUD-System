@@ -40,3 +40,38 @@ A simple and interactive **Product Management System** built using **HTML**, **C
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/product-management-system.git
+
+2. **Navigate to the project folder**:
+   ```bash
+   cd product-management-system
+
+3. **Open the index.html file in your preferred browser**.
+
+
+## Usage:
+1. Enter product details in the input fields.
+2. Click the Create button to add the product to the table.
+3. Use the search bar to find products by title or category.
+4. Update or delete any product using the respective buttons in the table.
+5. Switch between light and dark mode using the toggle button.
+
+## ScreenShots:
+- **Light Mode**:
+  ![image](https://github.com/user-attachments/assets/ee9b3390-8762-4558-8361-40f100098946)
+
+- **Dark Mode**:
+  ![image](https://github.com/user-attachments/assets/37f3a283-8028-45be-8687-f95ef2a449aa)
+
+
+## Future Improvements:
+- Add sorting functionality for the product table.
+- Integrate a backend (e.g., Node.js with a database) for real-time data persistence.
+- Provide export/import options for product data.
+
+
+## Author:
+*Masy Mohamed*
+- **GitHub** :[github.com/masy43](https://github.com/masy43)
+  
+
+    
